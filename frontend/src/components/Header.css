@@ -1,0 +1,42 @@
+/* Header.css */
+
+.header {
+  text-align: center;          /* Centers all text within the header */
+  padding: 30px 20px;          /* Adds padding around the header */
+  background-color: #282c34;   /* Dark background for contrast */
+  color: #ffffff;              /* Default text color */
+}
+
+.header h1 {
+  font-size: 3em;               /* Higher font size for main header */
+  font-weight: bold;            /* Bold text */
+  margin-bottom: 15px;          /* Space below the main header */
+  color: #61dafb;               /* Light blue color for the main title */
+}
+
+.header .course-info {
+  font-size: 1.5em;             /* Medium font size for second line */
+  font-style: italic;           /* Italic text */
+  margin-bottom: 10px;          /* Space below the second line */
+}
+
+.header .university-info {
+  font-size: 1.2em;             /* Smallest font size for third line */
+  font-weight: bold;            /* Bold text */
+  color: #ffffff;               /* Ensures text is readable against the background */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2em;             /* Adjust font size for smaller screens */
+  }
+
+  .header .course-info {
+    font-size: 1.2em;           /* Adjust font size for smaller screens */
+  }
+
+  .header .university-info {
+    font-size: 1em;             /* Adjust font size for smaller screens */
+  }
+}

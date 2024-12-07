@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+/* Center the language selector container */
+
+.language-selector-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin: 20px 0;
+
+}
+
+/* Container that holds both image and video columns */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* The image-column and video-column will stack vertically by default */
+.image-column, .video-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+/* Titles and sections */
+.image-upload-section, 
+.video-upload-section, 
+.image-caption-section, 
+.video-caption-section {
+  background: #2C2C2C;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #444;
+}
+
+/* Headings inside these sections */
+.image-upload-section h2,
+.video-upload-section h2,
+.image-caption-section h2,
+.video-caption-section h2 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+/* For larger screens (desktop/landscape) */
+@media (min-width: 768px) {
+  .layout-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* We have 2 columns, image on the left, video on the right */
+  .image-column, .video-column {
+    width: 48%; /* Adjust as needed */
+  }
+
+  /* Inside each column, sections stack vertically, no change needed there */
+}
+
+/* Loader styles remain the same */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+/* We can remove or comment out previous .uploads class if not needed anymore */
+.uploads {
+  /* Not needed now, since we have separate columns */
+  display: none;
+}

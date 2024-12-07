@@ -1,0 +1,30 @@
+/* CaptionDisplay.css */
+
+.caption-display {
+  margin: 40px 0;
+}
+
+.caption-display h2 {
+  margin-bottom: 20px;
+  color: #ffffff; /* Light text */
+}
+
+.caption-display p {
+  font-size: 1.2em;
+  color: #ffffff; /* Light text */
+}
+
+.caption-display ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #ffffff; /* Light text */
+}
+
+.caption-display li {
+  margin-bottom: 10px;
+}
+
+.caption-display h2.error,
+.caption-display p.error {
+  color: #ff5252; /* Red color for errors */
+}

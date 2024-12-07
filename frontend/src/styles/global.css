@@ -1,0 +1,40 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a base font and dark theme */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #FFFFFF; /* Light text */
+}
+
+/* Remove default link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #FFFFFF; /* Ensure headings have light text */
+}
+
+/* Container class for consistent width and central alignment */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; /* Center-align text */
+}
+
+/* Add this to center all content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

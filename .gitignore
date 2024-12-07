@@ -1,0 +1,11 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+venv/
+
+# Node.js-related files
+node_modules/
+npm-debug.log*
+
+# Temporary files
+uploads/
